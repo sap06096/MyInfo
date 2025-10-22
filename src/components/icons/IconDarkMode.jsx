@@ -1,0 +1,25 @@
+import React from "react";
+
+const IconDarkMode = ({
+  color = "currentColor",
+  strokeOpacity = "0.8",
+  strokeWidth = 1.5,
+}) => (
+  <svg
+    width="40"
+    height="40"
+    viewBox="0 0 40 40"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M20 10C14.4778 10 10 14.4778 10 20C10 25.5222 14.4778 30 20 30C25.5222 30 30 25.5222 30 20C30 19.4889 29.9556 18.9778 29.8889 18.4889C28.8 20.0111 27.0222 21 25 21C21.6889 21 19 18.3111 19 15C19 12.9889 19.9889 11.2 21.5111 10.1111C21.0222 10.0444 20.5111 10 20 10Z"
+      stroke={color}
+      strokeOpacity={strokeOpacity}
+      strokeWidth={strokeWidth}
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
+export default IconDarkMode;
