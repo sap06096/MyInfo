@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../styles/index.css";
 import Header from "../components/Layout/Header";
-import myPhoto from "../assets/images/main/myPhoto.jpg";
+import myPhoto from "../assets/images/main/myPhoto.JPG";
 
 import { ThemeContext } from "../contexts/ThemeProvider";
 import IconMail from "../components/icons/IconMail";
