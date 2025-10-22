@@ -1,4 +1,4 @@
-# Thirteen Homepage
+# MyInfo
 
 This is the official homepage for ThirteenCompany.
 
